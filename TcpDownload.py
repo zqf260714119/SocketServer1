@@ -21,7 +21,7 @@ def pro1(socket):
     # drive2 存放的是当前访问目录
     drive2 = drive
     print(2,drive2)
-    hint = "已经连接到胖爷的服务器\n共享文件夹内容：\n(输入编号操作)"
+    hint = "已经连接到服务器\n共享文件夹内容：\n(输入编号操作)"
     socket.send(hint.encode("UTF-8"))
     # 当前访问目录列表
     Sharedic = os.listdir(drive)
